@@ -1,0 +1,387 @@
+:root {
+    --light-green: #DCEBEA;
+    --primary-green: #47AFA9;
+    --dark-primary-green: #41A29B;    
+    --secondary-green: #41908C;
+    --dark-secondary-green: #2F7A77;    
+    --footer-green: #17252A;
+    --dark-footer-green: #10191D;
+    --light-grey: #EBECEB;
+    --primary-grey: #7B8E95;
+    --secondary-grey: #4A5F6A;
+    --primary-blue: #17242A;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Utilities */
+
+.green-heading {
+    color: var(--dark-secondary-green);
+}
+
+.light-green-heading {
+    color: var(--secondary-green);
+}
+
+.btn-green {
+    background-color: var(--dark-secondary-green);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: var(--secondary-green);
+    color: #fff;
+}
+
+/* Navbar */
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;    
+    box-shadow: 5px 17px 18px 0px rgba(16, 25, 29, 0.36);
+    -webkit-box-shadow: 5px 17px 18px 0px rgba(16, 25, 29, 0.36);
+    -moz-box-shadow:    5px 17px 18px 0px rgba(16, 25, 29, 0.36);
+    
+}
+
+header h2 {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 900;
+    font-size: 2.3rem;
+    color: var(--primary-blue);
+}
+
+header img {
+    border-radius: 50%;
+    border: 2px solid var(--dark-secondary-green);
+}
+
+header ul {
+    font-size: 1rem;
+}
+
+header ul a {
+    color: var(--primary-grey);
+    /* text-decoration: none; */
+}
+
+header ul a:hover {
+    color: var(--secondary-grey);
+}
+
+header i {
+    color: var(--primary-grey);
+}
+
+header i:hover {
+    color: var(--secondary-grey);
+}
+
+header #menu-list ul {
+    font-size: 1.3rem;
+}
+
+header #menu-list ul a {
+    color: var(--secondary-grey);
+}
+
+header #menu-icon {
+    font-size: 2rem;
+}
+
+header #close-icon {
+    font-size: 2.3rem;
+}
+
+/* Hero */
+
+.hero {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    height: fit-content;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background: url(../images/hero-bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: saturate(50%) contrast(30%) brightness(1.7) blur(1.5px) opacity();
+}
+
+.hero h1 {
+    font-weight: 900;        
+}
+
+.hero ul li {
+    font-weight: 600;
+    color: var(--primary-blue);
+    
+}
+
+.hero ul li i {
+    color: var(--dark-secondary-green);
+    background-color: var(--light-green);    
+    border-radius: 50%;
+    text-align: center;    
+    vertical-align: middle;
+}
+
+/* Cards Section */
+
+
+
+.cards .card {
+    background-color: var(--light-green);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cards .card .card-body div {
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.cards .card h3 {
+    color: var(--secondary-green);
+}
+
+.cards p {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* Proffesionals Section */
+
+.professional {
+    background-color: var(--light-green);
+    margin-top: -.2rem;
+    margin-bottom: -.2rem;
+}
+
+.professional p {
+    font-size: 1.1rem;
+}
+
+/* Team Section */
+
+.team .col-8 p {
+    font-size: 1.3rem;
+}
+
+/* Social Section */
+
+.social {
+    background-color: var(--dark-primary-green);
+    color: #fff;
+    margin-top: -.2rem;
+    margin-bottom: -.2rem;
+}
+
+.social p {
+    font-size: 1.2rem;
+}
+
+.social a {
+    color: #fff;
+}
+
+.social a:hover i{
+    transform: translateY(-.35rem);
+}
+
+.social a i {
+    font-size: 2.5rem;
+    transition: transform 0.2s ease-in;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--footer-green);
+    color: #fff;
+    margin-top: -.2rem;
+}
+
+.footer img {
+    border-radius: 50%;
+    border: 4px solid var(--primary-green);
+}
+
+.footer ul {
+    font-size: 1.3rem;
+}
+
+.footer ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul a:hover {
+    color: var(--primary-green);
+}
+
+.footer ul i {
+    font-size: 2.3rem;
+}
+
+.footer .list-styled {
+    color: var(--primary-green);
+}
+
+.footer .list-styled a {
+    color: var(--primary-green);
+    text-decoration: none;
+}
+
+.footer .list-styled a:hover {
+    color: #fff;
+}
+
+/* Media Queries */
+
+@media (min-width: 1200px) {
+
+    header ul {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .col-lg-1-5 {
+        width: 160px;
+    }
+    
+    .cards .col-lg-1-5 .card .card-body div {
+        width: 90px;
+        height: 90px;
+    }
+
+
+
+}
+
+@media (min-width: 777px) {
+
+    /* Hero Section */
+
+    .hero {
+        /* margin-top: 5rem; */
+        padding-top: 4rem;
+        height: 80vh;
+    }
+    
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero ul li {
+        font-size: 1.6rem;
+    }
+
+    .hero ul li i {
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 776px) and (min-width: 577px) {
+
+    /* Hero Section */
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero ul li {
+        font-size: 1.5rem;
+    }
+
+    .hero ul li i {
+        width: 1.6rem;
+        height: 1.6rem;
+        line-height: 1.6rem;
+    }    
+}
+
+@media (max-width: 576px) and (min-width: 371px) {
+
+    /* Hero Section */
+
+    .hero ul li{
+        font-size: 1.1rem;
+    }
+
+    .hero ul li i {
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 776px) {
+
+    .hero {
+        margin-top: 5rem;
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 370px) {
+
+    /* Hero Section */
+
+    .hero {
+        height: 100vh;
+    }
+
+    .hero ul li i {
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
+
