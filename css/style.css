@@ -1,10 +1,10 @@
 :root {
-    --light-green: #DCEBEA;
+    --light-green: #ABC3A9;
     --primary-green: #47AFA9;
-    --dark-primary-green: #41A29B;    
-    --secondary-green: #41908C;
-    --dark-secondary-green: #2F7A77;    
-    --footer-green: #17252A;
+    --dark-primary-green: #BAAFD7;    
+    --secondary-green: #4C6C4B;
+    --dark-secondary-green: #678F66;    
+    --footer-green: #3C305F;
     --dark-footer-green: #10191D;
     --light-grey: #EBECEB;
     --primary-grey: #7B8E95;
@@ -78,7 +78,7 @@ header h2 {
     /* font-family: 'Open Sans', sans-serif; */
     font-weight: 900;
     font-size: 2.3rem;
-    color: var(--primary-blue);
+    color: var(--secondary-green);
 }
 
 header img {
@@ -171,7 +171,7 @@ header #close-icon {
 
 .cards .card {
     background-color: var(--light-green);
-    height: 100%;
+    height: 300px;
     border-radius: 10px;
 }
 
@@ -192,6 +192,11 @@ header #close-icon {
     font-size: 1.2rem;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+    z-index: 0;
+}
 /* Proffesionals Section */
 
 .professional {
@@ -200,11 +205,26 @@ header #close-icon {
     margin-bottom: -.2rem;
 }
 
+.professional h1 {
+    color: var(--secondary-green);
+}
+
 .professional p {
     font-size: 1.1rem;
 }
 
 /* Team Section */
+
+#team {
+    /* display: none; */
+    position: relative;
+    top: 120px;
+}
+
+#team-mobile{
+    position: relative;
+    top: -80px;
+}
 
 .team .col-8 p {
     font-size: 1.3rem;

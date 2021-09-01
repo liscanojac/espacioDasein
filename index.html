@@ -43,14 +43,14 @@
                 <div class="d-flex me-lg-3">
                     <ul class="list-unstyled my-auto d-none d-lg-flex">
                         <li class="mx-2">
-                            <a class="text-decoration-none" href="./about.html">Acerca de</a>
+                            <a class="text-decoration-none" href="#team">Acerca de</a>
                         </li>
-                        <li class="mx-2">
-                            <a class="text-decoration-none" href="mailto:lictruebadaniela@gmail.com" target="_blank"
+                        <li class=mx-2>
+                            <a class="text-decoration-none" href="mailto:daseinespacio@gmail.com" target="_blank"
                                 rel="noopener noreferrer">Contacto</a>
                         </li>
-                        <li class="mx-2">
-                            <a class="text-decoration-none" href="mailto:daseinespacio@gmail.com" target="_blank"
+                        <li class="mx-2 d-none">
+                            <a class="text-decoration-none" href="" target="_blank"
                                 rel="noopener noreferrer">Equipo</a>
                         </li>
                     </ul>
@@ -65,13 +65,13 @@
                 <div id="menu-list" class="d-flex flex-column align-items-center d-none">
                     <ul class="list-unstyled text-center mt-4">
                         <li class="my-2 me-3">
-                            <a class="text-decoration-none" href="#">Acerca de</a>
+                            <a class="text-decoration-none" href="#team-mobile">Acerca de</a>
                         </li>
                         <li class="my-2 me-3">
                             <a class="text-decoration-none" href="mailto:daseinespacio@gmail.com" target="_blank"
                                 rel="noopener noreferrer">Contacto</a>
                         </li>
-                        <li class="my-2 me-3">
+                        <li class="my-2 me-3 d-none">
                             <a class="text-decoration-none" href="#">Equipo</a>
                         </li>
                     </ul>
@@ -84,12 +84,13 @@
     <section class="hero position-relative">
         <div class="d-flex container h-100 align-items-center">
             <div class="row">
-                <div class="col-9 col-lg-8">
-                    <h1 class="mb-4 green-heading">En este espacio antes que psicólogos somos personas</h1>
+                <div class="col-9 col-lg-10">
+                    <h1 class="mb-4 green-heading">Nuestro propósito es ayudarte a cambiar.</h1>
                     <ul class="fa-ul">
                         <li><i class="fa-li fas fa-check"></i>Atendemos tanto presencial como online</li>
-                        <li><i class="fa-li fas fa-check"></i>Puedes hablar con uno de los psicólogos de nuestro equipo desde la comodidad de tú casa</li>
-                        <li><i class="fa-li fas fa-check"></i>Ponte en contacto con nosotros o reserva un turno en el horario de tu conveniencia.</li>
+                        <li><i class="fa-li fas fa-check"></i>Trabajamos con un sistema de admisión clínica realizada por nuestra directora, quien luego te derivará al profesional
+                        que crea más conveniente para vos.</li>
+                        <li><i class="fa-li fas fa-check"></i>Contactanos a través de Whatsapp o reservá ahora mismo un turno para una admisión.</li>
                     </ul>
                 </div>
             </div>            
@@ -103,91 +104,141 @@
             <div class="row">
                 <h1 class="text-center green-heading my-4">Nuestro equipo puede ayudarte en el tratamiento de:</h1>
             </div>
-            <div class="row gy-4 my-4">
-                <div class="col-6 col-md-4 col-lg-3 card-div">
-                    <div class="card align-items-center border-light">
-                        <div class="d-flex flex-column card-body align-items-center justify-content-around">
-                            <div class="d-flex justify-content-center p-4">
-                                <img src="./images/Depression-8.png" alt="">
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row gy-4 my-4">
+                            <div class="col-6 col-md-4 col-lg-3 card-div">
+                                <div class="card align-items-center border-light">
+                                    <div class="d-flex flex-column card-body align-items-center justify-content-around">
+                                        <div class="d-flex justify-content-center p-4">
+                                            <img src="./images/Depression-8.png" alt="">
+                                        </div>
+                                        <h3 class="text-center mt-3">Depresión</h3>
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class= "text-center mt-3">Depresión</h3>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="card align-items-center border-light">
+                                    <div class="d-flex flex-column card-body align-items-center justify-content-around">
+                                        <div class="d-flex justify-content-center p-4">
+                                            <img src="./images/Anxiety-8.png" alt="">
+                                        </div>
+                                        <h3 class="text-center mt-3">Ansiedad</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="card align-items-center border-light">
+                                    <div class="d-flex flex-column card-body align-items-center justify-content-around">
+                                        <div class="d-flex justify-content-center p-4">
+                                            <img src="./images/Trauma-8.png" alt="">
+                                        </div>
+                                        <h3 class="text-center mt-3">Fobias</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="card align-items-center border-light">
+                                    <div class="d-flex flex-column card-body align-items-center justify-content-around">
+                                        <div class="d-flex justify-content-center p-4">
+                                            <img src="./images/mental-health-3-e1615806718182.png" alt="">
+                                        </div>
+                                        <h3 class="text-center mt-3">Autoconocimiento</h3>
+                                    </div>
+                                </div>
+                            </div>           
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row gy-4 my-4">
+                            
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="card align-items-center border-light">
+                                    <div class="d-flex flex-column card-body align-items-center justify-content-around">
+                                        <div class="d-flex justify-content-center p-4">
+                                            <img src="./images/Anxiety-8.png" alt="">
+                                        </div>
+                                        <h3 class="mt-3 text-center">Ataques de Pánico</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="card align-items-center border-light">
+                                    <div class="d-flex flex-column card-body align-items-center justify-content-around">
+                                        <div class="d-flex justify-content-center p-4">
+                                            <img src="./images/Eating-disorders-e1615806698543.png" alt="">
+                                        </div>
+                                        <h3 class="text-center mt-3">Búsqueda de sentido</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="card align-items-center border-light">
+                                    <div class="d-flex flex-column card-body align-items-center justify-content-around">
+                                        <div class="d-flex justify-content-center p-4">
+                                            <img src="./images/Depression-8.png" alt="">
+                                        </div>
+                                        <h3 class="text-center mt-3">Baja Autoestima</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="card align-items-center border-light">
+                                    <div class="d-flex flex-column card-body align-items-center justify-content-around">
+                                        <div class="d-flex justify-content-center p-4">
+                                            <img src="./images/mental-health-3-e1615806718182.png" alt="">
+                                        </div>
+                                        <h3 class="text-center mt-3">Orientación Vocacional</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            
+                        
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row gy-4 my-4">
+                            
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="card align-items-center border-light">
+                                    <div class="d-flex flex-column card-body align-items-center justify-content-around">
+                                        <div class="d-flex justify-content-center p-4">
+                                            <img src="./images/Parenting-e1615806737488 (1).png" alt="">
+                                        </div>
+                                        <h3 class="text-center mt-3">Niños, Adolescentes y Adultos</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3">
+                                <div class="card align-items-center border-light">
+                                    <div class="d-flex flex-column card-body align-items-center justify-content-around">
+                                        <div class="d-flex justify-content-center p-4">
+                                            <img src="./images/Trauma-8.png" alt="">
+                                        </div>
+                                        <h3 class="text-center mt-3">Interconsulta Psiquiátrica</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card align-items-center border-light">
-                        <div class="d-flex flex-column card-body align-items-center justify-content-around">
-                            <div class="d-flex justify-content-center p-4">
-                                <img src="./images/Anxiety-8.png" alt="">
-                            </div>
-                            <h3 class= "text-center mt-3">Ansiedad</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card align-items-center border-light">
-                        <div class="d-flex flex-column card-body align-items-center justify-content-around">
-                            <div class="d-flex justify-content-center p-4">
-                                <img src="./images/Trauma-8.png" alt="">
-                            </div>
-                            <h3 class= "text-center mt-3">Trauma</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card align-items-center border-light">
-                        <div class="d-flex flex-column card-body align-items-center justify-content-around">
-                            <div class="d-flex justify-content-center p-4">
-                                <img src="./images/mental-health-3-e1615806718182.png" alt="">
-                            </div>
-                            <h3 class= "text-center mt-3">Salud Mental</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card align-items-center border-light">
-                        <div class="d-flex flex-column card-body align-items-center justify-content-around">
-                            <div class="d-flex justify-content-center p-4">
-                                <img src="./images/drug-addiction-e1615806682494.png" alt="">
-                            </div>
-                            <h3 class= "mt-3">Addicciones</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card align-items-center border-light">
-                        <div class="d-flex flex-column card-body align-items-center justify-content-around">
-                            <div class="d-flex justify-content-center p-4">
-                                <img src="./images/Alcohol-dependency-e1615806596935.png" alt="">
-                            </div>
-                            <h3 class= "text-center mt-3">Dependencias</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card align-items-center border-light">
-                        <div class="d-flex flex-column card-body align-items-center justify-content-around">
-                            <div class="d-flex justify-content-center p-4">
-                                <img src="./images/Eating-disorders-e1615806698543.png" alt="">
-                            </div>
-                            <h3 class= "text-center mt-3">Desórdenes alimenticios</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card align-items-center border-light">
-                        <div class="d-flex flex-column card-body align-items-center justify-content-around">
-                            <div class="d-flex justify-content-center p-4">
-                                <img src="./images/Parenting-e1615806737488.png" alt="">
-                            </div>
-                            <h3 class= "text-center mt-3">Familias</h3>
-                        </div>
-                    </div>
-                </div>
-                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+
+            
             <div class="text-center">
-                <h2 class="green-heading mt-4 pt-4">Te sientes identificado con alguno de estos?</h2>
+                <h2 class="green-heading mt-4 pt-4">Te sentís identificado con alguno de estos?</h2>
                 <p>Podemos ayudarte con un profesional que mejor se adapte a tus necesidades.</p>
                 <a href="https://web.whatsapp.com/send?phone=541138982835" target="_blank" rel="noopener noreferrer" class="btn btn-green px-3 py-2 mt-4">Contáctanos</a>
             </div>
@@ -197,14 +248,14 @@
     <!-- Professional Section -->
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#DCEBEA" fill-opacity="1"
+        <path fill="#ABC3A9" fill-opacity="1"
             d="M0,192L120,213.3C240,235,480,277,720,272C960,267,1200,213,1320,186.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
             data-darkreader-inline-fill="" style="--darkreader-inline-fill:#007acc;"></path>
     </svg>
     <section class="professional pb-1">
         <div class="container">
             <div class="row">
-                <h1 class="text-center green-heading my-4">Por qué elegir Espacio Dasein?</h1>
+                <h1 class="text-center my-4">Por qué elegir Espacio Dasein?</h1>
             </div>
             <div class="row my-4">
                 <div class="col-12 col-lg-4">
@@ -216,7 +267,8 @@
                         <p class="text-center">
                             Todos nuestros profesionales están matriculados por el Ministerio de Salud.
                             <br>
-                            Además Espacio Dasein se centra en formar a nuestro equipo de una manera humana, personal y profesional con ateneos profesionales y formación clínica en cámara Gessel.
+                            Además, Espacio Dasein se centra en capacitar a nuestro equipo desde una mirada humana y personal con ateneos semanales,
+                            supervisiones regulares y formación clínica.
                         </p>
                     </div>
                 </div>
@@ -225,11 +277,11 @@
                         <div class="d-flex justify-content-center p-4">
                             <img src="./images/Professional-8.png" alt="">
                         </div>
-                        <h3 class="light-green-heading">Con Experiencia</h3>
+                        <h3 class="light-green-heading">Simplicidad</h3>
                         <p class="text-center">
-                            Nuestro equipo esta formado con profesionales con experiencia de muchos casos y tratamientos.
-                            <br>
-                            Y esa experiencia siempre la apuntamos a ayudar a nuestros pacientes a conseguir el bienestar.
+                            Necesitamos cosas simples. Por eso, para ser paciente solo hay una admisión clínica con la directora y ella misma te
+                            deriva con el terapeuta que mejor se alineé a eso que estás buscando.
+                            
                         </p>
                     </div>
                 </div>
@@ -240,44 +292,55 @@
                         </div>
                         <h3 class="light-green-heading">Convenientes</h3>
                         <p class="text-center">
-                            Habla con uno de los psicólogos por el medio que te sea mas cómodo.
+                            Trabajamos con un sistema de admisión clínica realizada por nuestra directora, quien luego te derivará al profesional
+                            que crea más conveniente para vos.
                             <br>
-                            Nos hemos adaptado a estos nuevos tiempos con las herramientas necesarias para que puedas hablar con un profesional de manera presencial o remota.
+                            Nos hemos adaptado a estos nuevos tiempos con las herramientas necesarias para que puedas hacer terapia de manera presencial o remota.
                         </p>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  
+        <div id="team" class=""></div>
+        <div id="team-mobile" class=""></div>
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#DCEBEA" fill-opacity="1"
+        <path fill="#ABC3A9" fill-opacity="1"
             d="M0,288L120,245.3C240,203,480,117,720,90.7C960,64,1200,96,1320,112L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
             data-darkreader-inline-fill="" style="--darkreader-inline-fill:#007acc;"></path>
     </svg>
+    
 
     <!-- Team Section -->
     
     <section class="team">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-8">
-                    <h1 class="green-heading mb-4 pb-2">Conecta con el Psicólogo adecuado para ti</h1>
+                <div class="col-12 col-lg-8">
+                    <h1 class="green-heading mb-4 pb-2">Nuestra Misión</h1>
                     <p>
-                        Estamos comprometidos en ofrecer el mejor servicio para tus necesidades. Por eso nos esforzamos en mantener los mas
-                        altos estándares profesionales y éticos.
+                        Martin Heidegger fue el creador de nuestro nombre, DA significa ahí y SEIN significa ser. Si lo unimos, significa SER
+                        AHÍ y es un término dinámico que expresa movimiento. Elegimos llamar así a nuestro espacio porque creemos que si estamos
+                        en movimiento, si estamos abiertos al cambio, a lo diferente, a ayudar al otro a cambiar, alcanzamos nuestro propósito.
                         <br>
                         <br>
-                        Nos enfocamos en tu crecimiento y desarrollo con constante desarrollo profesional de nuestro equipo.
+                        En Espacio Dasein buscamos hacer una psicología más personal, más genuina; donde el crecimiento es tanto para el
+                        paciente como para el terapeuta
+
                         <br>
                         <br>
-                        Nuestos psicólogos mantienen una supervisión regular y están actualizados a la vanguardia en el desarrollo de esta ciencia.
+                        Como paciente vas a encontrar un espacio humano donde vas a poder trabajar tus problemáticas y/o sufrimientos.
+                        <br>
+                        <br>
+                        Como terapeuta vas a encontrar un espacio de formación, de crecimiento profesional y (¡de lo más importante!) en equipo.
+
                     </p>
                 </div>               
             </div>           
 
             <!-- Carousel BS5 -->
 
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide d-none" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-block w-100">
@@ -435,7 +498,7 @@
     <!-- Social section -->
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
-        <path fill="#41A29B" fill-opacity="1"
+        <path fill="#BAAFD7" fill-opacity="1"
             d="M0,160L120,170.7C240,181,480,203,720,181.3C960,160,1200,96,1320,64L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
             data-darkreader-inline-fill="" style="--darkreader-inline-fill:#007acc;"></path>
     </svg>
@@ -459,7 +522,7 @@
         </div>
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#41A29B" fill-opacity="1"
+        <path fill="#BAAFD7" fill-opacity="1"
             d="M0,256L120,218.7C240,181,480,107,720,90.7C960,75,1200,117,1320,138.7L1440,160L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
             data-darkreader-inline-fill="" style="--darkreader-inline-fill:#007acc;"></path>
     </svg>
@@ -469,8 +532,8 @@
     <section class="calendly">
         <div class="container">
             <div class="text-center">
-                <h1 class="green-heading mb-4">Te interesa una sesión?</h1>
-                <p>Haz click en el botón debajoy selecciona la fecha y la hora de tu preferencia.</p>
+                <h1 class="green-heading mb-4">¿Querés reservar un turno para admisión?</h1>
+                <p>Contactanos a través de Whatsapp o reservá ahora mismo un turno para una admisión.</p>
                 <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/jacanelonl/60min'});return false;" class="btn btn-green px-3 py-2 my-4">turnos</a>
             </div>
         </div>
@@ -479,7 +542,7 @@
     <!-- Footer Section -->
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150">
-        <path fill="#17252A" fill-opacity="1" d="M0,160L1440,32L1440,320L0,320Z" data-darkreader-inline-fill=""
+        <path fill="#3C305F" fill-opacity="1" d="M0,160L1440,32L1440,320L0,320Z" data-darkreader-inline-fill=""
             style="--darkreader-inline-fill:#007acc;"></path>
     </svg>
     <section class="footer">
