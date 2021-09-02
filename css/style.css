@@ -92,6 +92,7 @@ header ul {
 
 header ul a {
     color: var(--primary-grey);
+    text-decoration: none;
     /* text-decoration: none; */
 }
 
