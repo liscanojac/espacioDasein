@@ -4,7 +4,7 @@
     --dark-primary-green: #BAAFD7;    
     --secondary-green: #4C6C4B;
     --dark-secondary-green: #678F66;    
-    --footer-green: #3C305F;
+    --footer-green: #725CAD;
     --dark-footer-green: #10191D;
     --light-grey: #EBECEB;
     --primary-grey: #7B8E95;
@@ -287,16 +287,16 @@ header #close-icon {
 }
 
 .footer .list-styled {
-    color: var(--primary-green);
+    color: #fff;
 }
 
 .footer .list-styled a {
-    color: var(--primary-green);
+    color: #fff;
     text-decoration: none;
 }
 
 .footer .list-styled a:hover {
-    color: #fff;
+    color: var(--primary-green);
 }
 
 /* Media Queries */
