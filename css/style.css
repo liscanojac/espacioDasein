@@ -4,7 +4,7 @@
     --dark-primary-green: #BAAFD7;    
     --secondary-green: #4C6C4B;
     --dark-secondary-green: #678F66;    
-    --footer-green: #725CAD;
+    --footer-green: #E8B0B1;
     --dark-footer-green: #10191D;
     --light-grey: #EBECEB;
     --primary-grey: #7B8E95;
@@ -78,7 +78,7 @@ header h2 {
     /* font-family: 'Open Sans', sans-serif; */
     font-weight: 900;
     font-size: 2.3rem;
-    color: var(--secondary-green);
+    color: var(--dark-secondary-green);
 }
 
 header img {
