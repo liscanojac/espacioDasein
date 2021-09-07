@@ -171,9 +171,25 @@ header #close-icon {
 
 
 .cards .card {
-    background-color: var(--light-green);
+    /* background-color: var(--light-green); */
     height: 300px;
     border-radius: 10px;
+}
+
+.card-green {
+    background-color: var(--light-green);
+}
+
+.card-pink {
+    background-color: var(--footer-green);    
+}
+
+.card-skyblue {
+    background-color: #C5D6E6;
+}
+
+.card-purple {
+    background-color: #BAAFD7;
 }
 
 .cards .card .card-body div {
