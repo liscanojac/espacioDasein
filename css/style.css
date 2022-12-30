@@ -275,6 +275,126 @@ header #close-icon {
     transition: transform 0.2s ease-in;
 }
 
+/* Team Carousel */
+.cards .card-one {
+    background: url(../images/fantastic-four.jpeg);
+}
+.cards .card-two {
+    background: url(../images/team-meeting.jpeg);
+}
+.cards .card-three {
+    background: url(../images/office-chairs.jpeg);
+}
+.cards .card-four {
+    background: url(../images/team-gala.jpeg);
+}
+
+.cards .card-five {
+    background: url(../images/carousel/bbq-2.jpeg);
+}
+.cards .card-six {
+    background: url(../images/carousel/beach-piggy-back-ride.jpeg);
+}
+.cards .card-seven {
+    background: url(../images/carousel/beer-night.jpeg);
+}
+.cards .card-eight {
+    background: url(../images/carousel/birthday-gather.jpeg);
+}
+.cards .card-nine {
+    background: url(../images/carousel/bright-office-gather.jpeg);
+}
+.cards .card-ten {
+    background: url(../images/carousel/car-selfie.jpeg);
+}
+.cards .card-eleven {
+    background: url(../images/carousel/chalet-gather.jpeg);
+}
+.cards .card-twelve {
+    background: url(../images/carousel/car-selfie-2.jpeg);
+}
+.cards .card-13 {
+    background: url(../images/carousel/croissants.jpeg);
+}
+.cards .card-14 {
+    background: url(../images/carousel/car-selfie-3.jpeg);
+}
+.cards .card-15 {
+    background: url(../images/carousel/forest-selfie.jpeg);
+}
+.cards .card-16 {
+    background: url(../images/carousel/car-selfie-4.jpeg);
+}
+.cards .card-17 {
+    background: url(../images/carousel/grass-gather-2.jpeg);
+}
+.cards .card-18 {
+    background: url(../images/carousel/maccas-selfie.jpeg);
+}
+.cards .card-19 {
+    background: url(../images/carousel/office-gather-2.jpeg);
+}
+.cards .card-20 {
+    background: url(../images/carousel/office-selfie.jpeg);
+}
+.cards .card-21 {
+    background: url(../images/carousel/office-selfie-2.jpeg);
+}
+.cards .card-22 {
+    background: url(../images/carousel/painting-2.jpeg);
+}
+.cards .card-23 {
+    background: url(../images/carousel/office-selfie-4.jpeg);
+}
+.cards .card-24 {
+    background: url(../images/carousel/painting-3.jpeg);
+}
+.cards .card-25 {
+    background: url(../images/carousel/office-selfie-3.jpeg);
+}
+.cards .card-26 {
+    background: url(../images/carousel/painting-4.jpeg);
+}
+.cards .card-27 {
+    background: url(../images/carousel/office-selfie-5.jpeg);
+}
+.cards .card-28 {
+    background: url(../images/carousel/painting-5.jpeg);
+}
+.cards .card-29 {
+    background: url(../images/carousel/park-gather.jpeg);
+}
+.cards .card-30 {
+    background: url(../images/carousel/poster-selfie.jpeg);
+}
+.cards .card-31 {
+    background: url(../images/carousel/pasta-gather.jpeg);
+}
+.cards .card-32 {
+    background: url(../images/carousel/sand-sunset-gather.jpeg);
+}
+.cards .card-33 {
+    background: url(../images/carousel/team-gala-2.jpeg);
+}
+.cards .card-34 {
+    background: url(../images/carousel/studying.jpeg);
+}
+.cards .card-35 {
+    background: url(../images/carousel/team-gala-3.jpeg);
+}
+.cards .card-36 {
+    background: url(../images/carousel/patio-gather.jpeg);
+}
+
+.team-carousel .card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
 /* Footer */
 
 .footer {
